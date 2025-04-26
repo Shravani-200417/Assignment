@@ -1,0 +1,71 @@
+h1 {
+    color:black;
+}
+p{
+    color: blue; /* set text color to red */
+}
+/* set text color to red */
+p {
+    color: blue;
+}
+h1 {
+    color: black;
+}
+.tomato {
+    background-color: tomato;
+
+}
+.orange {
+    background-color: orange;
+}
+.dodgerblue {
+    background-color: dodgerblue;
+}
+.mediumseagreen {
+    background-color: mediumseagreen;
+}
+.gray {
+    background-color: gray;
+}
+.slateblue {
+    background-color: slateblue;
+}
+.violet {
+    background-color: violet;
+}
+.lightgray {
+    background-color: lightgray;
+}
+p.dotted {
+    border-style: dotted;
+}
+p.dashed {
+    border-style: dashed;
+}
+p.solid {
+    border-style: solid;
+}
+p.double {
+    border-style: double;
+}
+p.groove {
+    border-style: groove;
+}
+p.ridge {
+    border-style: ridge;
+}
+p.inset {
+    border-style: inset;
+}
+p.outset {
+    border-style: outset;
+}
+p.none {
+    border-style: none;
+}
+p.hidden {
+    border-style: hidden;
+}
+p.mix {
+    border-style: dotted dashed solid double;
+}
