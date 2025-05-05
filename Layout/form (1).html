@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--simple test-->
+    <h1>Text fields</h1>
+    <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname">
+        <br><br>
+        <label for="lname">Last Name </label>
+        <input type="text" id="lname">
+    </form>
+    <!--Textarea field-->
+    <h1>Textarea </h1>
+    <form action="#">
+        <label for="message">message</label>
+        <br>
+        <textarea rows="10"
+        cols="30"
+        name="blog">
+    </textarea>
+    <br>
+    <input type="submit" value="submit">
+    </form>
+    <!--ratio field-->
+    <h2>Drop down</h2>
+    <form method="get">
+        <label for="fruit">Select a fruit</label>
+        <select id="fruit" name="fruit">
+            <option value="">Select one fruit</option>
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Pear">Pear</option>
+            <option value="Mango">Mango</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <!--Radio Button-->
+    <h2>Radio Button</h2>
+        <input type="radio" id="Netflix"
+        name="streaming" value="Netflix">
+        <label for="Netflix">Netflix</label>
+        <br>
+        <input type="radio" id="Hulu"
+        name="streaming" value="Hulu">
+        <label for="Hulu"> Hulu</label>
+        <br>
+        <input type="radio" id="Prime"
+        name="streaming" value="Prime">
+        <label for="Prime">Prime</label>
+       <br>
+       <br>
+       <!--Checkbox-->
+       <h2>Checkbox</h2>
+       <form method="get">
+        <label> 
+            <input type="checkbox" name="subscribe"
+            value="yes">Scbscribe
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="subscribe"
+            value="no">Unscbscribe
+        </label>
+        <br>
+        <input type="submit" value="submit">
+       </form>
+       <!--password -->
+       <br>
+       <h2>password</h2>
+       <form>
+        User ID : <input type="text" name="user_id"/>
+        <br>
+        Password : <input type="password" name="password"><br>
+        <input type="reset"name="reset" value="reset"/>
+        <input type="submit" name="submit" value="submit"/>
+        <input type="button" name="ok" value="ok"/>
+        <input type="hidden" name="hidden"/>
+       </form><br><br>
+       <form>
+       Select file : <input type="file" name="fileupload" accept="image/*" />
+
+       </form>
+
+</body>
+</html>
