@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 80px;
+            background-color: plum;
+            color :black;
+            text-align: center;
+    
+            line-height: 50px;
+
+        }
+        nav{
+            background-color: lavenderblush;
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        nav a{
+            color: black;
+            text-decoration: none;
+            margin-right: 10px;
+        
+        }
+        main {
+               display: flex;
+               justify-content: center;
+               padding: 30px 20px;
+               background-color: beige;
+            
+            }
+        .registration-form {
+            background-color: #d8d8d8;
+            border: 2px solid #D8BFD8; /* Thistle */
+            border-radius: 10px;
+            padding: 25px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            }
+        .registration-form button:hover {
+            text-align: center;
+            background-color: lightskyblue;
+        }
+        footer{
+            background-color: plum;
+            color: black;
+            text-align: center;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--header -->
+    <header>
+        <h1>College Application Form</h1>
+    </header>
+    <!--navigation -->
+    <nav>
+        <a href="#"> Home </a>
+       <a href="#"> About </a>
+       <a href="#"> Contant </a>
+    </nav>
+
+      
+    <main>
+      <!--simple test-->
+      <form class="registration-form">
+        <h2>Register Your Details</h2><br>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required><br>
+        
+
+        </br>
+        <label>Father Name</label>
+        <input type="text" placeholder="Father name" required><br>
+        
+
+        </br>
+        <label>Mother Name</label>
+        <input type="text" placeholder="Mother name" required><br>
+        
+
+        </br>
+        <label>UUCMS Reg</label>
+        <input type="text" placeholder="Register no" required><br>
+        
+
+        </br>
+
+    
+      <label>Date of Birth</label>
+      <input type="date" required><br>
+    
+
+        </br>
+
+        <!--Radio Button-->
+    
+        <lable>Gender </lable>
+        <input type="radio" id="Gender"
+            name="streaming" value="Female">
+        <label for="Female">Female</label>
+    
+        <input type="radio" id="Gender"
+        name="streaming" value="Male">
+        <label for="Male"> Male</label>
+        <br>
+    
+
+        </br>
+        <div>
+        <label for="Course">Course</label>
+        <select id="Course" name="Course">
+            <option value="">Select a Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BCOM">BCOM</option>
+            <option value="BBA">BBA</option>
+
+        </select>
+        <label for="Sem">Sem</label>
+        <select id="Sem" name="Sem">
+            <option value="">Sem</option>
+            <option value="Sem1">Sem1</option>
+            <option value="Sem2">Sem2</option>
+            <option value="Sem3">Sem3</option>
+            <option value="Sem1">Sem4</option>
+            <option value="Sem2">Sem5</option>
+            <option value="Sem3">Sem6</option>
+
+        </select>
+
+        </div>
+        <br>
+        
+    
+        <section>
+            <div>
+            <label>Phone Number</label>
+            <input type="number" placeholder="+91" required>
+
+            </div>
+        
+        </section>
+
+        </br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required><br>
+    
+
+        </br>
+        <label>Address</label>
+        <input type="text" placeholder="Full Address" required><br>
+
+    
+        </br>
+
+        Upload Documents : <input type="file" name="fileupload" accept="image/*" /><br>
+
+        </br>
+
+        <button type="submit">Submit</button>
+
+    
+
+     </form>
+    </main>
+    <!--fotter -->
+    <footer>
+        <p>2025 College Application Form.All rights reserved</p>
+    </footer>
+
+</body>
+</html>
